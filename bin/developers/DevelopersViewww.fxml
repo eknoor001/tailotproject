@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="442.0" minWidth="600.0" prefHeight="442.0" prefWidth="604.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="developers.DevelopersViewwwController">
+   <children>
+      <Separator layoutX="293.0" layoutY="-1.0" orientation="VERTICAL" prefHeight="442.0" prefWidth="8.0">
+         <effect>
+            <DropShadow />
+         </effect></Separator>
+      <Label prefHeight="18.0" prefWidth="299.0" text="Under the guidance of Mr.Rajesh Bansal">
+         <font>
+            <Font name="Bell MT Bold" size="16.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="100.0" fitWidth="121.0" layoutX="92.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/Rajewsh%20sir.jfif" />
+         </image>
+      </ImageView>
+      <Label layoutX="4.0" layoutY="164.0" prefHeight="22.0" prefWidth="291.0" text="Rajesh K. Bansal is the founder and owner of Banglore" />
+      <Label layoutX="4.0" layoutY="186.0" prefHeight="18.0" prefWidth="291.0" text="Computer Education (BCE) and training head at Sun-" />
+      <Label layoutX="4.0" layoutY="204.0" prefHeight="18.0" prefWidth="291.0" text="Soft Technologies(SST) based in Bathinda (India) that " />
+      <Label layoutX="4.0" layoutY="222.0" prefHeight="18.0" prefWidth="291.0" text="provides industrial trainings in all programming, web" />
+      <Label layoutX="4.0" layoutY="240.0" prefHeight="18.0" prefWidth="291.0" text="developing platforms and develop web applications" />
+      <Label layoutX="4.0" layoutY="258.0" prefHeight="18.0" prefWidth="291.0" text="using advanced technologies of java &amp; other platforms" />
+      <Label layoutX="4.0" layoutY="276.0" prefHeight="18.0" prefWidth="291.0" text="He post graduated with MCA. He has Cleared &quot;SCJP&quot;" />
+      <Label layoutX="4.0" layoutY="294.0" prefHeight="18.0" prefWidth="291.0" text="(Sun Certified Java Programmer) and &quot;MCS&quot; (Microsoft " />
+      <Label layoutX="4.0" layoutY="312.0" prefHeight="18.0" prefWidth="291.0" text="Certified Specialist) exams also. Being involved in" />
+      <Label layoutX="4.0" layoutY="330.0" prefHeight="18.0" prefWidth="291.0" text="professional trainng field for more than 20 years, he" />
+      <Label layoutX="4.0" layoutY="348.0" prefHeight="18.0" prefWidth="291.0" text="has developed the art of explaining even the most " />
+      <Label layoutX="4.0" layoutY="366.0" prefHeight="18.0" prefWidth="291.0" text="complicated topics in a straight forward and easily " />
+      <Label layoutX="4.0" layoutY="384.0" prefHeight="18.0" prefWidth="291.0" text="understandable fashion. To know moew visit his website" />
+      <Label layoutX="4.0" layoutY="402.0" prefHeight="18.0" prefWidth="291.0" text="http://www.banglorecomputereducation.com" />
+      <ImageView fitHeight="100.0" fitWidth="66.0" layoutX="384.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Pictures/Saved%20Pictures/IMG-20200108-WA0020.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="305.0" layoutY="166.0" prefHeight="18.0" prefWidth="299.0" text="Myself Eknoor Singh and i am doing B.tech in computer " />
+      <Label layoutX="302.0" layoutY="186.0" prefHeight="18.0" prefWidth="291.0" text=" science in 3rd year in Giani zail singh campus and " />
+      <Label layoutX="305.0" layoutY="204.0" prefHeight="18.0" prefWidth="291.0" text="college of engineering technologies. I have learned " />
+      <Label layoutX="305.0" layoutY="222.0" prefHeight="18.0" prefWidth="291.0" text="C/C++ and also learned Java in BCE and this is my first" />
+      <Label layoutX="305.0" layoutY="240.0" prefHeight="18.0" prefWidth="291.0" text="project in java named Tailor. I got a lot of experience " />
+      <Label layoutX="305.0" layoutY="258.0" prefHeight="18.0" prefWidth="291.0" text="from it. I worked in this project in mysql there i made " />
+      <Label layoutX="305.0" layoutY="276.0" prefHeight="18.0" prefWidth="291.0" text="database and in database i made table for store my " />
+      <Label layoutX="305.0" layoutY="294.0" prefHeight="18.0" prefWidth="291.0" text="data and i also worked in scenebuilder there i designed" />
+      <Label layoutX="302.0" layoutY="312.0" prefHeight="18.0" prefWidth="291.0" text="my front end and the main feature of my project is " />
+      <Label layoutX="302.0" layoutY="330.0" prefHeight="18.0" prefWidth="291.0" text="export data in excel and from my point of view this " />
+      <Label layoutX="302.0" layoutY="347.0" prefHeight="18.0" prefWidth="291.0" text="project is really helpful for tailors to store their data" />
+      <Label layoutX="302.0" layoutY="366.0" prefHeight="18.0" prefWidth="291.0" text="digitally." />
+   </children>
+</AnchorPane>

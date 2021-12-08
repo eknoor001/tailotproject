@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="500.0" minWidth="500.0" prefHeight="526.0" prefWidth="541.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tablerecords.TableViewwwController">
+   <children>
+      <Label prefHeight="39.0" prefWidth="542.0" text="                     CUSTOMER'S DISPLAY" textFill="#2705e7">
+         <font>
+            <Font name="Tahoma" size="25.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+      <Label layoutX="54.0" layoutY="55.0" text="CITY">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="comboCity" layoutX="54.0" layoutY="87.0" prefWidth="150.0" promptText="Select City" />
+      <Button layoutX="244.0" layoutY="87.0" mnemonicParsing="false" onAction="#doShow" text="SHOW" textFill="#e10909" />
+      <Button layoutX="348.0" layoutY="87.0" mnemonicParsing="false" onAction="#doShowAll" text="SHOW ALL RECORDS" textFill="#df0b0b" />
+      <TableView fx:id="tblRecords" layoutX="4.0" layoutY="178.0" prefHeight="344.0" prefWidth="534.0" />
+      <Button layoutX="244.0" layoutY="137.0" mnemonicParsing="false" onMouseClicked="#doShowDataInExcel" text="SHOW DATA IN EXCEL" textFill="#dc0c0c" />
+      <Label layoutX="54.0" layoutY="141.0" prefHeight="18.0" prefWidth="150.0" text="Export data in Excel">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="197.0" layoutY="141.0" text="&gt;&gt;" />
+   </children>
+</AnchorPane>

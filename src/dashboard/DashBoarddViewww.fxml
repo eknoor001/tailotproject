@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="650.0" minWidth="618.0" prefHeight="650.0" prefWidth="618.0" style="-fx-background-color: #A9A9A9;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dashboard.DashBoarddViewwwController">
+   <children>
+      <ImageView fitHeight="132.0" fitWidth="138.0" layoutX="25.0" layoutY="69.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/customer%20990.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="132.0" fitWidth="116.0" layoutX="246.0" layoutY="69.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/CustomerMeasure.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="25.0" layoutY="217.0" mnemonicParsing="false" onMouseClicked="#doOpenCustomerPanel" prefHeight="26.0" prefWidth="122.0" text="Customer Panel">
+         <font>
+            <Font name="Franklin Gothic Medium Italic" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="245.0" layoutY="217.0" mnemonicParsing="false" onMouseClicked="#doOpenMeasurement" prefHeight="26.0" prefWidth="122.0" text="Measurement">
+         <font>
+            <Font name="Franklin Gothic Medium Italic" size="14.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="122.0" fitWidth="138.0" layoutX="22.0" layoutY="282.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/dilevery%20dfgdfsgdfgd.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="22.0" layoutY="417.0" mnemonicParsing="false" onMouseClicked="#doDelivery" prefHeight="26.0" prefWidth="129.0" text="Delivery Panel">
+         <font>
+            <Font name="Franklin Gothic Medium Italic" size="14.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="117.0" fitWidth="129.0" layoutX="239.0" layoutY="282.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/images%20(2).jfif" />
+         </image>
+      </ImageView>
+      <Button layoutX="237.0" layoutY="417.0" mnemonicParsing="false" onMouseClicked="#doOpenEmployeesPanel" prefHeight="26.0" prefWidth="138.0" text="Employees Panel">
+         <font>
+            <Font name="Franklin Gothic Medium Italic" size="14.0" />
+         </font>
+      </Button>
+      <Label prefHeight="38.0" prefWidth="650.0" text="                       DASHBOARD" textFill="#cadf0f">
+         <font>
+            <Font name="High Tower Text" size="33.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+      <ImageView fitHeight="132.0" fitWidth="129.0" layoutX="461.0" layoutY="69.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/images%20(3).jfif" />
+         </image>
+      </ImageView>
+      <Button layoutX="457.0" layoutY="217.0" mnemonicParsing="false" onMouseClicked="#doOpenCustomerDataTable" prefHeight="26.0" prefWidth="122.0" text="Customers Data">
+         <font>
+            <Font name="Franklin Gothic Medium Italic" size="14.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="122.0" fitWidth="130.0" layoutX="457.0" layoutY="275.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/data%20panel%205.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="457.0" layoutY="417.0" mnemonicParsing="false" onMouseClicked="#doOpenEmployeesData" prefHeight="26.0" prefWidth="122.0" text="Employees Data">
+         <font>
+            <Font name="Franklin Gothic Medium Italic" size="14.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="122.0" fitWidth="138.0" layoutX="25.0" layoutY="471.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/images%201234.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="22.0" layoutY="609.0" mnemonicParsing="false" onMouseClicked="#doOpenOrdersPanel" prefHeight="26.0" prefWidth="129.0" text="Orders Status">
+         <font>
+            <Font name="Franklin Gothic Medium Italic" size="14.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="122.0" fitWidth="138.0" layoutX="237.0" layoutY="471.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/qqw.jfif" />
+         </image>
+      </ImageView>
+      <Button layoutX="231.0" layoutY="609.0" mnemonicParsing="false" onMouseClicked="#doOpenDevelopers" prefHeight="26.0" prefWidth="129.0" text="About Developers">
+         <font>
+            <Font name="Franklin Gothic Medium Italic" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

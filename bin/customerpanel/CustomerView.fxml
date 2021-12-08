@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.SepiaTone?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="600.0" minWidth="600.0" prefHeight="600.0" prefWidth="750.0" style="-fx-background-image: #F0F8FF;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="customerpanel.CustomerViewController">
+   <children>
+      <ImageView fx:id="iv1" fitHeight="138.0" fitWidth="106.0" layoutX="410.0" layoutY="58.0" pickOnBounds="true" preserveRatio="true" />
+      <Label layoutY="-3.0" prefHeight="50.0" prefWidth="741.0" text="                        CUSTOMER PANEL">
+         <font>
+            <Font name="Tempus Sans ITC" size="35.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtName" layoutX="104.0" layoutY="175.0" prefHeight="26.0" prefWidth="158.0" />
+      <TextField fx:id="txtAddress" layoutX="104.0" layoutY="251.0" prefHeight="26.0" prefWidth="418.0" />
+      <TextField fx:id="txtCity" layoutX="104.0" layoutY="347.0" prefHeight="26.0" prefWidth="158.0" />
+      <TextField fx:id="txtEmail" layoutX="363.0" layoutY="347.0" prefHeight="26.0" prefWidth="158.0" />
+      <RadioButton fx:id="radMale" layoutX="104.0" layoutY="418.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="106.0" text="Male">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <toggleGroup>
+            <ToggleGroup fx:id="Gem" />
+         </toggleGroup></RadioButton>
+      <RadioButton fx:id="radFemale" layoutX="260.0" layoutY="418.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="106.0" text="Female" toggleGroup="$Gem">
+         <font>
+            <Font size="15.0" />
+         </font></RadioButton>
+      <TextField fx:id="txtReffer" layoutX="104.0" layoutY="507.0" prefHeight="26.0" prefWidth="158.0" />
+      <Label layoutX="104.0" layoutY="64.0" text="Contact Number">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <effect>
+            <SepiaTone />
+         </effect>
+      </Label>
+      <Label layoutX="104.0" layoutY="140.0" text="Customer Name">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <effect>
+            <SepiaTone />
+         </effect>
+      </Label>
+      <Label layoutX="105.0" layoutY="216.0" text="Address">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <effect>
+            <SepiaTone />
+         </effect>
+      </Label>
+      <Circle fill="#ced4d9" layoutX="668.0" layoutY="179.0" radius="39.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#ced4d9" layoutX="668.0" layoutY="101.0" radius="39.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#ced4d9" layoutX="668.0" layoutY="257.0" radius="39.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#ced4d9" layoutX="668.0" layoutY="335.0" radius="39.0" stroke="BLACK" strokeType="INSIDE" />
+      <Button layoutX="633.0" layoutY="88.0" mnemonicParsing="false" onAction="#doRegister" prefHeight="26.0" prefWidth="71.0" style="-fx-background-color: #ced4d9;" text="Register">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="632.0" layoutY="165.0" mnemonicParsing="false" onAction="#doModify" prefHeight="26.0" prefWidth="71.0" style="-fx-background-color: #ced4d9;" text="Modify">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="632.0" layoutY="244.0" mnemonicParsing="false" onAction="#doLeft" prefHeight="26.0" prefWidth="71.0" style="-fx-background-color: #ced4d9;" text="Left">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="632.0" layoutY="322.0" mnemonicParsing="false" onAction="#doRefresh" prefHeight="26.0" prefWidth="71.0" style="-fx-background-color: #ced4d9;" text="Refresh">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="283.0" layoutY="101.0" mnemonicParsing="false" onAction="#doDetails" prefHeight="26.0" prefWidth="59.0" text="Details">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="433.0" layoutY="216.0" mnemonicParsing="false" onAction="#doBrowse" prefHeight="26.0" prefWidth="59.0" text="Browse">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="121.0" fitWidth="158.0" layoutX="598.0" layoutY="486.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/tailor%20spell%20calligraphy%20picture%20-%20Google%20Search_files/8c185ff64c3d97deeeed14c45775cbc1.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="105.0" layoutY="310.0" text="City">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <effect>
+            <SepiaTone />
+         </effect>
+      </Label>
+      <Label layoutX="366.0" layoutY="310.0" text="Email Id">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <effect>
+            <SepiaTone />
+         </effect>
+      </Label>
+      <Label layoutX="104.0" layoutY="470.0" text="Reffered By">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <effect>
+            <SepiaTone />
+         </effect>
+      </Label>
+      <Circle fill="#dbdee1" layoutX="74.0" layoutY="79.0" radius="9.0" stroke="#180202" strokeType="INSIDE">
+         <effect>
+            <DropShadow />
+         </effect></Circle>
+      <Circle fill="#dbdee1" layoutX="74.0" layoutY="155.0" radius="9.0" stroke="BLACK" strokeType="INSIDE">
+         <effect>
+            <DropShadow />
+         </effect></Circle>
+      <Circle fill="#dbdee1" layoutX="74.0" layoutY="231.0" radius="9.0" stroke="BLACK" strokeType="INSIDE">
+         <effect>
+            <DropShadow />
+         </effect></Circle>
+      <Circle fill="#dbdee1" layoutX="74.0" layoutY="325.0" radius="9.0" stroke="BLACK" strokeType="INSIDE">
+         <effect>
+            <DropShadow />
+         </effect></Circle>
+      <Circle fill="#dbdee1" layoutX="335.0" layoutY="325.0" radius="9.0" stroke="BLACK" strokeType="INSIDE">
+         <effect>
+            <DropShadow />
+         </effect></Circle>
+      <Circle fill="#dbdee1" layoutX="74.0" layoutY="485.0" radius="9.0" stroke="BLACK" strokeType="INSIDE">
+         <effect>
+            <DropShadow />
+         </effect></Circle>
+      <Line endX="728.9000244140625" endY="409.9000244140625" startX="613.2000122070312" startY="409.9000244140625" />
+      <Line endX="612.7000122070312" endY="50.399993896484375" startX="612.7000122070312" startY="409.9000244140625" />
+      <Line endX="729.4000244140625" endY="409.4000244140625" startX="729.4000244140625" startY="50.899993896484375" />
+      <Line endX="610.7999877929688" endY="50.399993896484375" startX="727.800048828125" startY="50.399993896484375" />
+      <ComboBox fx:id="comboCn" editable="true" layoutX="102.0" layoutY="101.0" prefHeight="26.0" prefWidth="158.0" />
+      <Label fx:id="lblPath" layoutX="442.0" layoutY="498.0" prefHeight="18.0" prefWidth="1.0" text="Label" visible="false" />
+      <Line endX="515.5" endY="65.79289245605469" layoutX="-1.0" layoutY="-8.0" startX="409.7928466796875" startY="65.79289245605469" />
+      <Line endX="410.0" endY="196.0" startX="409.4999694824219" startY="58.5" />
+      <Line endX="506.0" endY="199.0" layoutX="9.0" layoutY="-3.0" startX="506.0" startY="59.30000305175781" />
+      <Line endX="516.0" endY="192.0" layoutY="4.0" startX="408.7928466796875" startY="192.70709228515625" />
+   </children>
+</AnchorPane>

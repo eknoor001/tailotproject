@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="500.0" minWidth="500.0" prefHeight="554.0" prefWidth="594.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="table1records.TablesViewwwController">
+   <children>
+      <Label prefHeight="35.0" prefWidth="500.0" text="                   SPECIALIST DISPLAY" textFill="#ef0c0c">
+         <font>
+            <Font size="28.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+      <ComboBox fx:id="comboSD" layoutX="26.0" layoutY="56.0" prefWidth="150.0" />
+      <Button layoutX="198.0" layoutY="56.0" mnemonicParsing="false" onAction="#doShow" text="SHOW" />
+      <Button layoutX="307.0" layoutY="56.0" mnemonicParsing="false" onAction="#doShowAll" text="SHOW ALL RECORDS" />
+      <TableView fx:id="tblShow" layoutX="14.0" layoutY="128.0" prefHeight="411.0" prefWidth="570.0" />
+      <Label layoutX="26.0" layoutY="99.0" text="Export data in Excel">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="170.0" layoutY="99.0" prefHeight="22.0" prefWidth="17.0" text="&gt;&gt;" />
+      <Button layoutX="198.0" layoutY="97.0" mnemonicParsing="false" onAction="#doShowAll" onMouseClicked="#doShowDataInExcel" text="SHOW DATA IN EXCEL" />
+   </children>
+</AnchorPane>

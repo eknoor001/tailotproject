@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="366.0" minWidth="600.0" prefHeight="366.0" prefWidth="600.0" style="-fx-background-color: #DCDCDC;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="login.LoginnViewwController">
+   <children>
+      <ImageView fitHeight="328.0" fitWidth="200.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/istockphoto-1257328683-612x612%20rrtretert.jpg" />
+         </image>
+      </ImageView>
+      <Label prefHeight="42.0" prefWidth="600.0" style="-fx-background-color: #2F4F4F;" text="                              USER LOGIN" textFill="#1cade1">
+         <font>
+            <Font name="Cooper Black" size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="235.0" layoutY="141.0" text="USERNAME" textFill="#1b0505">
+         <font>
+            <Font name="HP Simplified" size="15.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+      <TextField fx:id="txtUsername" layoutX="318.0" layoutY="138.0" prefHeight="26.0" prefWidth="150.0" promptText="enter  username">
+         <effect>
+            <DropShadow />
+         </effect>
+      </TextField>
+      <Label layoutX="234.0" layoutY="196.0" text="PASSWORD">
+         <font>
+            <Font name="HP Simplified" size="15.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+      <Button layoutX="341.0" layoutY="262.0" mnemonicParsing="false" onAction="#doDone" text="LOGIN" textFill="#0c1dd9">
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+      <ImageView fitHeight="26.0" fitWidth="28.0" layoutX="471.0" layoutY="138.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/username.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="32.0" fitWidth="28.0" layoutX="468.0" layoutY="193.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/password.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="318.0" layoutY="97.0" text="Welcome. Please login">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="pass1" layoutX="317.0" layoutY="193.0" />
+   </children>
+</AnchorPane>
