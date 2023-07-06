@@ -88,6 +88,8 @@ public class CustomerViewController {
    		e.printStackTrace();
    	  }
     }
+
+	//this is doDetails method
     
     @FXML
     void doDetails(ActionEvent event) 
